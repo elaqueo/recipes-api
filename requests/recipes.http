@@ -1,4 +1,6 @@
-POST http://localhost:8080/recipes HTTP/1.1
+@url=http://localhost:8080/recipes
+
+POST {{url}} HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 
@@ -18,3 +20,7 @@ Content-Type: application/json
         "instruction 4"
     ]
 }
+
+###
+GET {{url}} HTTP/1.1
+Accept: application/json
