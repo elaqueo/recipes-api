@@ -1,0 +1,20 @@
+POST http://localhost:8080/recipes HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Homemade pizza",
+    "tags": ["italian", "pizza", "dinner"],
+    "ingredients": [
+        "ingrediente 1",
+        "ingrediente 2",
+        "ingrediente 3",
+        "ingrediente 4"
+    ],
+    "instructions": [
+        "instruction 1",
+        "instruction 2",
+        "instruction 3",
+        "instruction 4"
+    ]
+}
